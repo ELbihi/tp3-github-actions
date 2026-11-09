@@ -11,3 +11,8 @@ jobs:
     steps:
       - name: Afficher un message
         run: echo "Hello from GitHub Actions"
+      - name: Inspecter le runner
+        run: |
+          python3 --version
+          pwd
+          ls -la
