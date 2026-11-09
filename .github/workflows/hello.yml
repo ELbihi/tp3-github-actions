@@ -16,8 +16,8 @@ jobs:
           python3 --version
           pwd
           ls -la
-      - name: Échec volontaire
-        run: exit 1
+      # - name: Échec volontaire
+      #   run: exit 1
       - name: Informations Git
         run: |
           echo "Branche : $GITHUB_REF_NAME"
